@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        header h1 {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .search-container input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+        .search-container input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .main-content {
+            display: flex;
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .menu {
+            width: 200px;
+            margin-center: 50px;
+        }
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu ul li {
+            margin: 50px 0;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+        }
+        .image-container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container img {
+            max-width: 50%;
+            height: auto;
+        }
+        footer {
+            background-color: green;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        .comments {
+            flex-grow: 1;
+            margin-right: 20px;
+        }
+        .comments textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+        }
+        .social-media a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="escencialogo.jpg">
+        <h1>ESCENCIA COFFEE</h1>
+    </header>
+
+    <div class="search-container">
+        <input type="text" placeholder="Buscar...">
+        <input type="submit" value="Buscar">
+    </div>
+
+    <div class="main-content">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="especialidad.html">Especialidades</a></li>
+                <li><a href="reservacion.html">Reservación</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="materiales.html">Materiales</a></li>
+                <li><a href="contactanos.html">Contáctanos</a></li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="https://edit.org/img/blog/8e1-plantilla-menu-cafeteria-editable-online.webp">
+        </div>
+    </div>
+
+    <footer>
+        <div class="comments">
+            <textarea placeholder="Escribe tu comentario..."></textarea>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
